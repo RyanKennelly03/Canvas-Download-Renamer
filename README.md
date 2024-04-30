@@ -4,5 +4,7 @@ Run in a downloaded submissions folder from canvas to put each student's submiss
 This can be useful for grading name dependant files in bulk (eg: .java files require the name to match the class), or just for improving your file organization.
 
 To run:
-1) Navigate to the file you wish to run it using ```cd```
-2) Run the script using ```bash``` followed by where you put the file
+1) Download the submissions from canvas using the "Download Submissions" button
+2) Unzip the file
+3) Navigate to the unziped file in your terminal using ```cd```
+4) Run the script using ```bash``` followed by where you put the script
