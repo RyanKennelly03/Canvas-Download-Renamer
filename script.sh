@@ -1,6 +1,6 @@
 for f in *;
 do
-	if [[ "$f" =~ (.*)_[LATE_]*.*_.*_(.*) ]] 
+	if [[ "$f" =~ ([^_]*)_[LATE_]*.*_.*_(.*) ]] 
 	then
 		dir=${BASH_REMATCH[1]}
 		file=${BASH_REMATCH[2]}
